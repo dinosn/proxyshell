@@ -21,6 +21,6 @@ def proxyshell(url):
 
 if __name__ == '__main__':
     try:
-        proxylogon(sys.argv[1])
+        proxyshell(sys.argv[1])
     except:
         print ("python3 proxyshell.py url" )
