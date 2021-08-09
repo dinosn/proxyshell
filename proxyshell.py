@@ -1,4 +1,4 @@
-# Proxylogon scanner
+# Proxyshell scanner
 # - Nicolas 9/8/2021
 
 import urllib3
@@ -23,4 +23,4 @@ if __name__ == '__main__':
     try:
         proxylogon(sys.argv[1])
     except:
-        print ("python3 proxylogon.py url" )
+        print ("python3 proxyshell.py url" )
