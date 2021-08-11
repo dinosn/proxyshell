@@ -1,2 +1,2 @@
-# proxylogon
-A basic proxylogon scanner
+# proxyshell
+A basic proxyshell scanner
